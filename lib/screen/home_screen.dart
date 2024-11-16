@@ -49,9 +49,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Padding(padding: EdgeInsets.all(width * 0.02)),
-            buildStep(width, "1. 총 문제는 여러개"),
-            buildStep(width, "2. 총 문제는 여러개"),
-            buildStep(width, "3. 총 문제는 여러개"),
+            buildStep(width, "1. 총 문제는 테스트마다 다릅니다."),
+            buildStep(width, "2. 테스트는 아무나 만들 수 있습니다."),
+            buildStep(width, "3. 테스트는 점수로 나옵니다."),
             Padding(padding: EdgeInsets.all(width * 0.02)),
             Container(
               padding: EdgeInsets.only(bottom: width * 0.03),
